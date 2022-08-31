@@ -44,6 +44,7 @@ const (
 	TokenIsNotUserToken         = 20022
 	InvalidRefererHeader        = 20023
 	SubdomainMismatch           = 20024
+	TokenIsExpired              = 20011
 )
 
 var ErrorCodeMapping = map[int]string{
@@ -62,4 +63,5 @@ var ErrorCodeMapping = map[int]string{
 	TokenIsNotUserToken:         "token is not user token",
 	InvalidRefererHeader:        "invalid referer header",
 	SubdomainMismatch:           "subdomain mismatch",
+	TokenIsExpired:              "token is expired",
 }
