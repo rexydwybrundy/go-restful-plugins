@@ -28,3 +28,5 @@ require (
 	golang.org/x/time v0.0.0-20201208040808-7e3f01d25324 // indirect
 	gopkg.in/DataDog/dd-trace-go.v1 v1.28.0
 )
+
+replace github.com/AccelByte/iam-go-sdk => github.com/rexydwybrundy/iam-go-sdk v1.1.4-test
